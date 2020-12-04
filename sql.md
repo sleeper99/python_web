@@ -75,4 +75,8 @@
               self.commit()
   ```
 
+## check transations
+```sql
+SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
+```
   
