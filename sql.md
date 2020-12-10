@@ -79,4 +79,8 @@
 ```sql
 SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
 ```
-  
+
+## unquote JSON_EXTRACT
+```sql
+select JSON_UNQUOTE(JSON_EXTRACT(base, '$.scope')) as scope from t_name
+```
